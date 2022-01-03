@@ -1,5 +1,3 @@
--- SCRIPT WAS CREATED BY ANOMALY RBLX, ALL CREDITS GO TO THEM. ARCHIVED BY ECHO.
-
 --//Declarations
 local SilentAim = {
     Enabled = false,
@@ -29,7 +27,7 @@ local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Anomaly-h
 ESP.Players = true
 ESP.Tracers = false
 ESP.Boxes = true
-local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/EchoScripts/scriptarchives/main/uilib.lua", true))();
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/EchoScripts/scriptarchives/Libraries/Jan's%20UI%20Copy.lua", true))();
 local window = Lib:CreateWindow("Trenches - Alpha", Vector2.new(492, 440), Enum.KeyCode.RightShift)
 
 local Main = window:CreateTab("Main")
